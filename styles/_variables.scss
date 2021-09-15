@@ -1,0 +1,99 @@
+// Main colors
+$theme-colors: (
+  "primary": #0d6efd,
+  "soft-primary": #f3f7ff,
+  "secondary": #1a1c28,
+  "success": #00c9a7,
+  "info": #09a5be,
+  "warning": #f5ca99,
+  "danger": #ff4136,
+  "light": #fafafa,
+  "dark": #000000,
+);
+
+// Enable for lower contrast rattio ligther than primary color default 4.5
+// $min-contrast-ratio: 2.5;
+
+// Change the spacing between nav-link items
+$navbar-nav-link-padding-x: 1rem;
+
+// Navbar
+$navbar-light-color: var(--bs-dark);
+$navbar-light-hover-color: var(--bs-primary);
+$navbar-light-active-color: var(--bs-primary);
+$navbar-dark-color: var(--bs-light);
+$navbar-dark-active-color: var(--bs-primary);
+
+$display1-weight: 700 !default;
+$display2-weight: 700 !default;
+$display3-weight: 700 !default;
+$display4-weight: 700 !default;
+$display-line-height: 1.2 !default;
+
+// Spacing
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 0.25,
+    ),
+    2: (
+      $spacer * 0.5,
+    ),
+    3: $spacer,
+    4: (
+      $spacer * 1.5,
+    ),
+    5: (
+      $spacer * 2,
+    ),
+    6: (
+      $spacer * 2.5,
+    ),
+    7: (
+      $spacer * 3,
+    ),
+    8: (
+      $spacer * 3.5,
+    ),
+    9: (
+      $spacer * 4,
+    ),
+    10: (
+      $spacer * 4.5,
+    ),
+    11: (
+      $spacer * 5,
+    ),
+    12: (
+      $spacer * 5.5,
+    ),
+  ),
+  $spacers
+);
+
+$content-space: 1rem !default;
+$content-spacers: () !default;
+$content-spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $content-space * 2,
+    ),
+    2: (
+      $content-space * 4,
+    ),
+    3: (
+      $content-space * 8,
+    ),
+    4: (
+      $content-space * 12.5,
+    ),
+    5: (
+      $content-space * 15,
+    ),
+  ),
+  $content-spacers
+);

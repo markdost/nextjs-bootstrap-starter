@@ -1,0 +1,50 @@
+.navbar-brand svg {
+  width: 150px;
+  height: auto;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 999;
+}
+
+.sticky-nav.navbar-dark,
+.sticky-nav.navbar-light {
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: background 0.2s linear, box-shadow 0.2s linear;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .sticky-nav.navbar-dark,
+  .sticky-nav.navbar-light {
+    backdrop-filter: saturate(180%) blur(5px);
+  }
+}
+
+// Fallback for Firefox (not supporting backdrop-filter)
+@supports not ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+  .sticky-nav.navbar-dark,
+  .sticky-nav.navbar-light {
+    background: rgba(0, 0, 0, 1);
+  }
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-brand svg {
+    width: 100px;
+  }
+}
