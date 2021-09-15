@@ -16,7 +16,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 ## Screenshot
 
-![Screenshot](/blob/master/public/screenshot.jpg)
+![Screenshot](/public/screenshot.jpg)
 
 ## Deploy on Vercel
 
