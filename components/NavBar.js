@@ -37,7 +37,7 @@ const NavBar = () => {
         <Link href="/">
           <a>
             <Navbar.Brand>
-              <Logo customClass="img-fluid" alt="Pop Atelier Logo" />
+              <Logo alt="Logo" />
             </Navbar.Brand>
           </a>
         </Link>

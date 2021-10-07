@@ -24,6 +24,10 @@ class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta property="og:title" content="App Name" />
           <meta property="og:image" content="/icon-512x512.png" />
+          <meta
+            property="og:image"
+            content="https://mui.com/static/social-previews/default-preview.jpg"
+          />
           <meta name="twitter:title" content="App Name" />
           <meta name="twitter:image" content="/icon-512x512.png" />
           <meta property="og:site_name" content="App Name" />
