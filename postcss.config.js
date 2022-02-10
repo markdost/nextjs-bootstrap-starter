@@ -24,7 +24,8 @@ module.exports = {
         css: ["./styles/**/*.scss, ./styles/**/*.css"],
         defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
         safelist: {
-          standard: ["html", "body"],
+          standard: ["html", "body", "btn"],
+          deep: [/^col/, /^navbar/, /^nav/],
           greedy: [/sticky-nav$/],
         },
       },
