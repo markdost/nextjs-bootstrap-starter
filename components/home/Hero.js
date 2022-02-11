@@ -36,6 +36,7 @@ const Hero = () => {
               width={750}
               height={600}
               blurDataURL="/img-placeholder.svg"
+              priority
             />
           </Col>
         </Row>

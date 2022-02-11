@@ -35,9 +35,9 @@ const NavBar = () => {
     >
       <Container>
         <Link href="/">
-          <a>
+          <a aria-label="Next.js Bootstrap Starter">
             <Navbar.Brand>
-              <Logo customClass="img-fluid" alt="Pop Atelier Logo" />
+              <Logo />
             </Navbar.Brand>
           </a>
         </Link>

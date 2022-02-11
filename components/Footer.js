@@ -10,7 +10,7 @@ const Footer = () => {
         <Row>
           {Array.from({ length: 3 }).map((_, idx) => (
             <Col md={2} key={idx}>
-              <h5>Section</h5>
+              <h2 className="h5">Section</h2>
               <ul className="nav flex-column">
                 <li className="nav-item mb-2">
                   <Link href="#!">
@@ -42,7 +42,7 @@ const Footer = () => {
           ))}
           <Col md={4} className="ms-auto">
             <Form>
-              <h5>Subscribe to our newsletter</h5>
+              <h2 className="h5">Subscribe to our newsletter</h2>
               <p>Monthly digest of whats new and exciting from us.</p>
               <div className="d-flex w-100 gap-2">
                 <Form.Label htmlFor="newsletter1" className="visually-hidden">
@@ -65,17 +65,17 @@ const Footer = () => {
           <p>© 2021 Company, Inc. All rights reserved.</p>
           <ul className="list-unstyled d-flex">
             <li className="ms-3">
-              <a className="link-dark" href="#">
+              <a className="link-dark" href="#" aria-label="Twitter">
                 <Twitter />
               </a>
             </li>
             <li className="ms-3">
-              <a className="link-dark" href="#">
+              <a className="link-dark" href="#" aria-label="Instagram">
                 <Instagram />
               </a>
             </li>
             <li className="ms-3">
-              <a className="link-dark" href="#">
+              <a className="link-dark" href="#" aria-label="Facebook">
                 <Facebook />
               </a>
             </li>
