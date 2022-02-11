@@ -3,8 +3,8 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "/",
-  "name": "App Name",
-  "short_name": "App Name",
+  "name": "Next.js Bootstrap Starter",
+  "short_name": "BS Starter",
   "orientation": "portrait-primary",
   "icons": [
     {
